@@ -10,7 +10,7 @@ If you named it something else you can set it below in the command
 
 class Py3status:
     cache_timeout = 600
-    format = 'Battery: {status}'
+    format = '🔋: {status}'
 
     def _get_battery_status(self):
         try:
@@ -30,3 +30,6 @@ class Py3status:
             'cached_until': self.py3.time_in(self.cache_timeout)
         }
 
+if __name__ == "__main__":
+    from py3status.module_test import module_test
+    module_test(Py3status)
