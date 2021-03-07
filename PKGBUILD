@@ -3,15 +3,15 @@
 
 pkgname=py3status-ups-battery-status
 pkgdesc="Monitor the status of your UPS battery in py3status bar"
-pkgver=0.1.0
+pkgver=0.1.2
 pkgrel=1
 arch=('any')
-license=('GPL2')
+license=('MIT')
 depends=('python' 'py3status')
 makedepends=('python-setuptools')
 url="https://github.com/mcgillij/py3status-ups-battery-status"
-source=("py3status-ups-battery-status-0.1.0.tar.gz")
-md5sums=('656fb7df0d0285a0118a0e0a46420de8')
+source=("https://github.com/mcgillij/py3status-ups-battery-status/releases/download/0.1.2/py3status-ups-battery-status-0.1.2.tar.gz")
+md5sums=('90559910f4dadd201192b08c468fd7b0')
 
 build() {
   cd "$srcdir/$pkgname-$pkgver"
