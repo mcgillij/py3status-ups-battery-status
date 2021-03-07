@@ -19,7 +19,7 @@ Add the module to your list of configured py3status modules
 ``` bash
 ...
 order += "arch_updates"
-order += "py3status_ups_battery_status"
+order += "ups_battery_status"
 order += "volume_status"
 ...
 
