@@ -6,6 +6,11 @@ Python module for py3status to monitor my UPS battery status
 
 ## Installation
 
+### With Pip
+``` bash
+pip install py3status-ups-battery-status
+```
+
 ### From Git
 ``` bash
 git clone https://github.com/mcgillij/py3status-ups-battery-status.git

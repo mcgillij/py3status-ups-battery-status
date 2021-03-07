@@ -12,12 +12,12 @@ keywords = ["battery", "ups", "status", "i3", "py3status"]
 include = [ "LICENSE", ]
 
 classifiers = [
-"Environment :: X11 Applications",
-"Intended Audience :: End Users/Desktop",
-"Operating System :: POSIX :: Linux",
-"Topic :: Desktop Environment :: Window Managers",
-"Topic :: System :: Monitoring",
-"Topic :: System :: Power (UPS)"
+    "Environment :: X11 Applications",
+    "Intended Audience :: End Users/Desktop",
+    "Operating System :: POSIX :: Linux",
+    "Topic :: Desktop Environment :: Window Managers",
+    "Topic :: System :: Monitoring",
+    "Topic :: System :: Power (UPS)"
 ]
 
 [tool.poetry.plugins."py3status"]
