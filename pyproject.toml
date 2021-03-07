@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "py3status-ups-battery-status"
 version = "0.1.0"
-description = "py3status widget to show the status of a UPS battery"
+description = "py3status module to show the status of a UPS battery"
 authors = ["mcgillij <mcgillivray.jason@gmail.com>"]
 license = "MIT"
 readme = "README.md"
@@ -11,11 +11,8 @@ documentation = "https://github.com/mcgillij/py3status-ups-battery-status"
 keywords = ["battery", "ups", "status", "i3", "py3status"]
 include = [ "LICENSE", ]
 
-[tool.poetry.scripts]
-py3status_ups_battery_status = "py3status_ups_battery_status:run"
-
 [tool.poetry.plugins."py3status"]
-module = "py3status_ups_battery_status"
+module = "py3status_ups_battery_status.ups_battery_status"
 
 [tool.poetry.dependencies]
 python = "^3.9"

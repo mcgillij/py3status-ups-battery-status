@@ -1,4 +1,4 @@
-# UPS_Battery_Monitor
+# py3status-ups-battery-status
 Python module for py3status to monitor my UPS battery status
 
 ## Dependencies

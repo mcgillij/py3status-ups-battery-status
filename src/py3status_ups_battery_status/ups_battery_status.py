@@ -20,7 +20,7 @@ class Py3status:
         except self.py3.CommandError as ce:
             return len(ce.output.splitlines())
 
-    def battery_status(self):
+    def ups_battery_status(self):
 
         status = self._get_battery_status()
         full_text = self.py3.safe_format(self.format, status)
@@ -29,10 +29,6 @@ class Py3status:
             "full_text": full_text,
             "cached_until": self.py3.time_in(self.cache_timeout),
         }
-
-
-def run():
-    print("Install py3status-ups-battery-status module to ~/.i3/py3status/")
 
 
 if __name__ == "__main__":
