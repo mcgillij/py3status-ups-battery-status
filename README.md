@@ -1,6 +1,8 @@
 # py3status-ups-battery-status
 Python module for py3status to monitor my UPS battery status
 
+[![Downloads](https://static.pepy.tech/personalized-badge/py3status-ups-battery-status?period=total&units=international_system&left_color=blue&right_color=green&left_text=Downloads)](https://pepy.tech/project/py3status-ups-battery-status)
+
 ## Screenshot
 ![py3status-ups-batter-status](https://raw.githubusercontent.com/mcgillij/py3status-ups-battery-status/main/images/ups_battery_status.png)
 
