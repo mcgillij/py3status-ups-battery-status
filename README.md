@@ -20,6 +20,12 @@ mkdir -p ~/.i3/py3status && cd ~/.i3/py3status
 ln -s <PATH_TO_CLONED_REPO>/src/py3status-ups-battery-status/ups-battery-status.py ./
 ```
 
+### Installing with `yay`
+
+``` bash
+yay -S py3status-ups-battery-status
+```
+
 ### Building From AUR (Arch)
 ``` bash
 git clone https://aur.archlinux.org/py3status-ups-battery-status.git
